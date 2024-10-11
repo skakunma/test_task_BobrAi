@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+
+  bot:
+    image: skakunma/test_bot_wether:latest
+    restart: always
+    env_file: .env

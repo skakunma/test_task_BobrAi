@@ -1,1 +1,2 @@
-# test_task_BobrAi
+# test_Bobr_Ai
+Тестовое задание в компанию
