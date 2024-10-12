@@ -60,4 +60,4 @@ jobs:
         SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
       run: |
         sudo apt-get install -y sshpass
-        sshpass -p "${SERVER_PASSWORD}" ssh -o StrictHostKeyChecking=no root@194.87.62.35
+        sshpass -p "${SERVER_PASSWORD}" ssh -o StrictHostKeyChecking=no root@194.87.62.35 -p 13773
