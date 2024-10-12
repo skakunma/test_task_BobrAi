@@ -7,8 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()# Загрузка env-ов
 
-translator = Translator(to_lang="en")
-
 BOT_API_KEY = os.getenv('BOT_API_KEY')
 WHETHER_URL = os.getenv('WHETHER_URL') # Это чтобы на git не выгружать
 WHETHER_API_KEY = os.getenv('WHETHER_API_KEY')
