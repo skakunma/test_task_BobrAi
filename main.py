@@ -3,7 +3,6 @@
 from telebot import TeleBot
 import requests
 import os
-from translate import Translator
 from dotenv import load_dotenv
 
 load_dotenv()# Загрузка env-ов
